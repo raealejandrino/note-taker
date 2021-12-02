@@ -10,7 +10,10 @@ if (window.location.pathname === '/notes') {
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
   noteList = document.querySelectorAll('.list-container .list-group');
+
+  
 }
+
 
 // Show an element
 const show = (elem) => {
@@ -67,6 +70,7 @@ const renderActiveNote = () => {
 };
 
 const handleNoteSave = () => {
+  console.log('test');
   const newNote = {
     title: noteTitle.value,
     text: noteText.value,
