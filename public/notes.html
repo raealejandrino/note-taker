@@ -26,24 +26,40 @@
         <i class="fas fa-plus text-light new-note"></i>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-4 list-container">
-          <div class="card">
-            <ul class="list-group"></ul>
+
+
+    <div class="container-fluid" style="min-height: 500px;">
+
+
+
+      <div class="row" style="height: 500px;">
+        <div class="col-4 border p-0">
+          <div class="card w-100 border-right-0">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item h3">test</li>
+              <li class="list-group-item h3">test</li>
+              <li class="list-group-item h3">test</li>
+              
+            </ul>
           </div>
         </div>
-        <div class="col-8">
+
+
+        <div class="col-8 d-flex flex-column p-2 border">
           <input
-            class="note-title"
+            class="note-title display-4"
             placeholder="Note Title"
             maxlength="28"
             type="text"
+            style="border: 0px;"
           />
-          <textarea class="note-textarea" placeholder="Note Text"></textarea>
+          <textarea class="note-textarea" placeholder="Note Text" style="border: 0px; font-size: 1.5rem;"></textarea>
         </div>
+
       </div>
     </div>
+
+
     <script src="/assets/js/index.js"></script>
   </body>
 </html>
