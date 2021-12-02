@@ -16,15 +16,25 @@ body {
   cursor: pointer;
 }
 
-.note-title {
-  color: red!important;
-}
+
 
 .note-textarea,
 .note-title {
   color: #000000;
   width: 100%;
   outline: none;
+  border: none;
+}
+
+input:focus {
+  border-width: 0px;
+  border: none;
+  outline: none!important;
+  
+}
+.note-textarea:focus, .note-title:focus {
+  
+  border-width: 0px;
   border: none;
 }
 
