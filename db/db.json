@@ -2,23 +2,13 @@
   "notes": [
     {
       "title": "Test Title",
-      "text": "Test text"
+      "text": "Test text",
+      "id": "123asd34asdsf"
     },
     {
-      "title": "dd",
-      "text": "as"
-    },
-    {
-      "title": "asd",
-      "text": "sd"
-    },
-    {
-      "title": "asdasd",
-      "text": "asd"
-    },
-    {
-      "title": "asda",
-      "text": "asd"
+      "title": "qasd",
+      "text": "as",
+      "id": "1a87"
     }
   ]
 }

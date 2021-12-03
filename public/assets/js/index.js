@@ -1,3 +1,5 @@
+
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -15,6 +17,13 @@ if (window.location.pathname === '/notes') {
   
 }
 
+
+
+function randomId() {
+  return Math.floor((1 + Math.random()) * 0x10000)
+  .toString(16)
+  .substring(1);
+}
 
 // Show an element
 const show = (elem) => {
@@ -75,6 +84,7 @@ const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
     text: noteText.value,
+    id: randomId()
   };
   saveNote(newNote).then(() => {
     getAndRenderNotes();
