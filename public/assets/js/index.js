@@ -9,7 +9,8 @@ if (window.location.pathname === '/notes') {
   noteText = document.querySelector('.note-textarea');
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
-  noteList = document.querySelector('.savedNotes');
+  noteList = document.querySelectorAll('.savedNotes');
+  noteListNonArray = document.querySelector('.savedNotes');
 
   
 }
@@ -126,7 +127,7 @@ const handleRenderSaveBtn = () => {
 const renderNoteList = async (notes) => {
   
   let jsonNotes = await notes.json();
-  console.log(jsonNotes);
+  
   if (window.location.pathname === '/notes') {
     
     noteList.forEach((el) => (el.innerHTML = ''));
@@ -176,7 +177,7 @@ const renderNoteList = async (notes) => {
 
   if (window.location.pathname === '/notes') {
     noteListItems.forEach((note) => 
-    noteList.appendChild(note)
+    noteListNonArray.appendChild(note)
     // console.log(noteList)
     );
   }
