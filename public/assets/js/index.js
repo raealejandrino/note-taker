@@ -99,12 +99,14 @@ const handleNoteDelete = (e) => {
 
   const note = e.target;
   const noteId = JSON.parse(note.parentElement.getAttribute('data-note')).id;
+  
 
   if (activeNote.id === noteId) {
     activeNote = {};
   }
 
   deleteNote(noteId).then(() => {
+    
     getAndRenderNotes();
     renderActiveNote();
   });
@@ -135,7 +137,7 @@ const handleRenderSaveBtn = () => {
 
 // Render the list of note titles
 const renderNoteList = async (notes) => {
-  
+ 
   let jsonNotes = await notes.json();
   
   if (window.location.pathname === '/notes') {
