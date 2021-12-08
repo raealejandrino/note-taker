@@ -32,6 +32,8 @@
 
 ## <img id="about" src="./themes/avocado/menu-categories/about.png" style="height: 40px">
 
+<img src="./public/assets/images/readmegif.gif">
+
 This repository is where I (Rae Alejandrino) develop a fully functioning note taker application using Node and Express. Whether you're looking to write a quick reminder, or study a live lecture, Pro Note Taker can help your productivity with digital note-taking! 
 
 ## <img id="installing" src="./themes/avocado/menu-categories/installing.png" style="height: 40px">
