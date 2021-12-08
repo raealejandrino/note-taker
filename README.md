@@ -66,3 +66,9 @@ In order to run this program locally you will need to:
 ## <img id="questions" src="./themes/avocado/menu-categories/questions-alt.png" style="height: 40px">
 
 - Feel free to open an issue or contact me directly at raealejandrino@gmail.com if you have any questions about the repo. You can find more of my work at [raealejandrino](https://github.com/raealejandrino/).
+
+## License
+
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Licensed under the [MIT](LICENSE.txt) license.
